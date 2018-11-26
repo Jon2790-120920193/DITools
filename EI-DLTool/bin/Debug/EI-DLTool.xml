@@ -1,0 +1,532 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EI-DLTool
+</name>
+</assembly>
+<members>
+<member name="T:EI_DLTool.My.Resources.DLTool_Form">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.BackgroundWorker1_TrayLocation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=17}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.BackgroundWorker2_TrayLocation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=253,Y=17}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.BackgroundWorker3_TrayLocation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=176,Y=60}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_BackgroundImageLayout">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.ImageLayout similar to Center.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_FlatStyle">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.FlatStyle similar to Popup.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=591,Y=312}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=25}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 5.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Text">
+<summary>
+  Looks up a localized string similar to Compile.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DestDir_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DestDir_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=13,Y=44}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DestDir_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DestDir_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=643, Height=26}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DestDir_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 2.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DestDir_Text">
+<summary>
+  Looks up a localized string similar to C:\.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DirSearch_FlatStyle">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.FlatStyle similar to Popup.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DirSearch_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=663,Y=44}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DirSearch_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DirSearch_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=30, Height=26}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DirSearch_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 7.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.DirSearch_Text">
+<summary>
+  Looks up a localized string similar to ....
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_BackgroundImageLayout">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.ImageLayout similar to Center.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_FlatStyle">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.FlatStyle similar to Popup.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=486,Y=312}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=25}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 4.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Text">
+<summary>
+  Looks up a localized string similar to Download.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_BackgroundImageLayout">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.ImageLayout similar to Center.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_FlatStyle">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.FlatStyle similar to Popup.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_ImeMode">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.ImeMode similar to NoControl.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=20,Y=311}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=25}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 11.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Text">
+<summary>
+  Looks up a localized string similar to Edit.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.FBD_TrayLocation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=180,Y=17}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_ItemHeight">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 24.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_Items">
+<summary>
+  Looks up a localized string similar to XPR300.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_Items1">
+<summary>
+  Looks up a localized string similar to HPR400XD.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=104,Y=197}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=117, Height=52}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 1.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_AutoSize">
+<summary>
+  Looks up a localized resource of type System.Boolean similar to True.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=16,Y=12}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=0,Right=4,Bottom=0}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=183, Height=19}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 3.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_Text">
+<summary>
+  Looks up a localized string similar to Package Save Location.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_AutoSize">
+<summary>
+  Looks up a localized resource of type System.Boolean similar to True.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=15,Y=176}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=2,Top=0,Right=2,Bottom=0}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=73, Height=19}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 9.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_Text">
+<summary>
+  Looks up a localized string similar to Machine.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_AutoSize">
+<summary>
+  Looks up a localized resource of type System.Boolean similar to True.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=101,Y=176}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=2,Top=0,Right=2,Bottom=0}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=112, Height=19}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 10.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_Text">
+<summary>
+  Looks up a localized string similar to Configuration.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.MachineConfigData_TrayLocation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=60}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_AutoSize">
+<summary>
+  Looks up a localized resource of type System.Boolean similar to True.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=87}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=0,Right=4,Bottom=0}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=11, Height=17}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 6.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Text">
+<summary>
+  Looks up a localized string similar to ..
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Visible">
+<summary>
+  Looks up a localized resource of type System.Boolean similar to False.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_AutoSize">
+<summary>
+  Looks up a localized resource of type System.Boolean similar to True.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=130}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=0,Right=4,Bottom=0}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=11, Height=17}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 8.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Text">
+<summary>
+  Looks up a localized string similar to ..
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Visible">
+<summary>
+  Looks up a localized resource of type System.Boolean similar to False.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_ItemHeight">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 24.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Items">
+<summary>
+  Looks up a localized string similar to SP600.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Items1">
+<summary>
+  Looks up a localized string similar to SP700.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Items2">
+<summary>
+  Looks up a localized string similar to SP900.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Point similar to {X=20,Y=197}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Margin">
+<summary>
+  Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Size">
+<summary>
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=77, Height=100}.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_TabIndex">
+<summary>
+  Looks up a localized resource of type System.Int32 similar to 0.
+</summary>
+</member>
+<member name="T:EI_DLTool.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.Resources.beautiful_color_gradients_backgrounds_100_vicious_stance">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.Resources.images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

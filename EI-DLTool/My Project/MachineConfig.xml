@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MachineConfiguration>
+  <Machine Type="SP600XPR300">
+    <Config>SP600XPR300</Config>
+    <TkName>600XPR</TkName>
+    <URL>http://wiki.inovkh.com/doku.php?id=xpr_component_table</URL>
+    <Build>1</Build>
+  </Machine>
+  <Machine Type="SP600HPR400XD">
+    <Config>SPR600HPR400XD</Config>
+    <TkName>600HPR</TkName>
+    <URL>http://wiki.inovkh.com/doku.php?id=hpr_compoenent_table</URL>
+    <Build>1</Build>
+  </Machine>
+  <Machine Type="SP700XPR300">
+    <Config>SP700XPR300</Config>
+    <TkName>700XPR</TkName>
+    <URL>
+    </URL>
+    <Build>1</Build>
+  </Machine>
+  <Machine Type="SP900XPR300">
+    <Config>SP900XPR300</Config>
+    <TkName>900XPR</TkName>
+    <URL>http://wiki.inovkh.com/doku.php?id=xpr_component_table_9x</URL>
+    <Build>1</Build>
+  </Machine>
+  <Machine Type="SP900HPR400XD">
+    <Config>SP900HPR400XD</Config>
+    <TkName>900HPR</TkName>
+    <URL>http://wiki.inovkh.com/doku.php?id=hpr_component_table_9h</URL>
+    <Build>1</Build>
+  </Machine>
+</MachineConfiguration>
