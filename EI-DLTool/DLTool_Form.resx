@@ -119,11 +119,11 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="SPMachineList.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 15pt</value>
+    <value>Microsoft Sans Serif, 15pt</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SPMachineList.ItemHeight" type="System.Int32, mscorlib">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="SPMachineList.Items" xml:space="preserve">
     <value>SP600</value>
@@ -142,7 +142,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="SPMachineList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 100</value>
+    <value>77, 79</value>
   </data>
   <data name="SPMachineList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -193,7 +193,7 @@
     <value>True</value>
   </data>
   <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 12</value>
@@ -202,7 +202,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 19</value>
+    <value>176, 20</value>
   </data>
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -229,7 +229,7 @@
     <value>Popup</value>
   </data>
   <data name="Download_Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="Download_Button.Location" type="System.Drawing.Point, System.Drawing">
     <value>486, 312</value>
@@ -259,10 +259,10 @@
     <value>7</value>
   </data>
   <data name="HypModelList.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 15pt</value>
+    <value>Microsoft Sans Serif, 15pt</value>
   </data>
   <data name="HypModelList.ItemHeight" type="System.Int32, mscorlib">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="HypModelList.Items" xml:space="preserve">
     <value>XPR300</value>
@@ -277,7 +277,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="HypModelList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 52</value>
+    <value>117, 54</value>
   </data>
   <data name="HypModelList.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -304,7 +304,7 @@
     <value>Popup</value>
   </data>
   <data name="Compile_Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="Compile_Button.Location" type="System.Drawing.Point, System.Drawing">
     <value>591, 312</value>
@@ -337,7 +337,7 @@
     <value>True</value>
   </data>
   <data name="NotificationLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 10.2pt</value>
+    <value>Microsoft Sans Serif, 10.2pt</value>
   </data>
   <data name="NotificationLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 87</value>
@@ -346,7 +346,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="NotificationLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>11, 17</value>
+    <value>12, 17</value>
   </data>
   <data name="NotificationLabel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -409,7 +409,7 @@
     <value>True</value>
   </data>
   <data name="NotificationLable2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 10.2pt</value>
+    <value>Microsoft Sans Serif, 10.2pt</value>
   </data>
   <data name="NotificationLable2.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 130</value>
@@ -418,7 +418,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="NotificationLable2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>11, 17</value>
+    <value>12, 17</value>
   </data>
   <data name="NotificationLable2.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -445,7 +445,7 @@
     <value>True</value>
   </data>
   <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 176</value>
@@ -454,7 +454,7 @@
     <value>2, 0, 2, 0</value>
   </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 19</value>
+    <value>69, 20</value>
   </data>
   <data name="Label2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -478,7 +478,7 @@
     <value>True</value>
   </data>
   <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>101, 176</value>
@@ -487,7 +487,7 @@
     <value>2, 0, 2, 0</value>
   </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 19</value>
+    <value>104, 20</value>
   </data>
   <data name="Label3.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -520,7 +520,7 @@
     <value>Popup</value>
   </data>
   <data name="EditConfigButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 12pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="EditConfigButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -574,7 +574,7 @@
     <value>701, 349</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Rubik, 10.2pt</value>
+    <value>Microsoft Sans Serif, 10.2pt</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>

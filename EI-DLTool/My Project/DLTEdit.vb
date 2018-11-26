@@ -1,5 +1,5 @@
 ﻿Public Class DLTEdit
-    Dim DataPath As String = "C:\Users\Joe_T\OneDrive\Desktop\Resource Backup\Builds\Maintenance Projects\Maintenance Downloader\In Development\EI-DLTool\EI-DLTool\My Project\MachineConfig.xml"
+    Dim DataPath As String = "C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\Resources\MachineConfig.xml"
     Dim ConfigDoc As New System.Xml.XmlDocument()
     Dim CheckConfig As String
     Dim ArgConfig As String

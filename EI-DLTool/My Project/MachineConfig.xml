@@ -15,8 +15,7 @@
   <Machine Type="SP700XPR300">
     <Config>SP700XPR300</Config>
     <TkName>700XPR</TkName>
-    <URL>
-    </URL>
+    <URL></URL>
     <Build>1</Build>
   </Machine>
   <Machine Type="SP900XPR300">

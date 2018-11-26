@@ -15,8 +15,8 @@ Public Class DLTool_Form
     Dim URL_SP700XPR As String = ""
     Dim URL_SP900XPR As String = "http://wiki.inovkh.com/doku.php?id=xpr_component_table_9x"
     Dim URL_SP900HPR As String = "http://wiki.inovkh.com/doku.php?id=hpr_component_table_9h"
-    Dim startInfo As New ProcessStartInfo("C:\Users\Joe_T\OneDrive\Desktop\Resource Backup\Builds\Maintenance Projects\Maintenance Downloader\In Development\EI-DLTool\EI-DLTool\EIFindURL.exe")
-    Dim DataPath As String = "C:\Users\Joe_T\OneDrive\Desktop\Resource Backup\Builds\Maintenance Projects\Maintenance Downloader\In Development\EI-DLTool\EI-DLTool\My Project\MachineConfig.xml"
+    Dim startInfo As New ProcessStartInfo("C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\EIFindURL.exe")
+    Dim DataPath As String = "C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\Resources\MachineConfig.xml"
     Dim ConfigDoc As New System.Xml.XmlDocument()
     Public Build As Integer
     Dim CheckConfig As String = ""

@@ -41,8 +41,8 @@ Partial Class DLTEdit
         '
         Me.MachineModelTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.MachineModelTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.MachineModelTextBox.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MachineModelTextBox.Location = New System.Drawing.Point(13, 81)
+        Me.MachineModelTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MachineModelTextBox.Location = New System.Drawing.Point(10, 82)
         Me.MachineModelTextBox.Name = "MachineModelTextBox"
         Me.MachineModelTextBox.Size = New System.Drawing.Size(74, 26)
         Me.MachineModelTextBox.TabIndex = 0
@@ -51,8 +51,8 @@ Partial Class DLTEdit
         'HyperthermTypeTextBox
         '
         Me.HyperthermTypeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.HyperthermTypeTextBox.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.HyperthermTypeTextBox.Location = New System.Drawing.Point(118, 81)
+        Me.HyperthermTypeTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HyperthermTypeTextBox.Location = New System.Drawing.Point(115, 82)
         Me.HyperthermTypeTextBox.Name = "HyperthermTypeTextBox"
         Me.HyperthermTypeTextBox.Size = New System.Drawing.Size(74, 26)
         Me.HyperthermTypeTextBox.TabIndex = 1
@@ -61,8 +61,8 @@ Partial Class DLTEdit
         'TkNameTextBox
         '
         Me.TkNameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TkNameTextBox.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TkNameTextBox.Location = New System.Drawing.Point(12, 147)
+        Me.TkNameTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TkNameTextBox.Location = New System.Drawing.Point(10, 148)
         Me.TkNameTextBox.Name = "TkNameTextBox"
         Me.TkNameTextBox.Size = New System.Drawing.Size(106, 26)
         Me.TkNameTextBox.TabIndex = 2
@@ -71,8 +71,8 @@ Partial Class DLTEdit
         'URLTextBox
         '
         Me.URLTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.URLTextBox.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.URLTextBox.Location = New System.Drawing.Point(13, 216)
+        Me.URLTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.URLTextBox.Location = New System.Drawing.Point(10, 216)
         Me.URLTextBox.Name = "URLTextBox"
         Me.URLTextBox.Size = New System.Drawing.Size(489, 26)
         Me.URLTextBox.TabIndex = 3
@@ -81,7 +81,7 @@ Partial Class DLTEdit
         '
         Me.BuildTextBox.AccessibleName = "BuildTextBox"
         Me.BuildTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.BuildTextBox.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BuildTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BuildTextBox.Location = New System.Drawing.Point(10, 285)
         Me.BuildTextBox.Name = "BuildTextBox"
         Me.BuildTextBox.Size = New System.Drawing.Size(34, 26)
@@ -92,89 +92,106 @@ Partial Class DLTEdit
         'MachineConfigLabel
         '
         Me.MachineConfigLabel.AutoSize = True
-        Me.MachineConfigLabel.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MachineConfigLabel.BackColor = System.Drawing.Color.Transparent
+        Me.MachineConfigLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MachineConfigLabel.ForeColor = System.Drawing.Color.OldLace
         Me.MachineConfigLabel.Location = New System.Drawing.Point(3, 59)
         Me.MachineConfigLabel.Name = "MachineConfigLabel"
-        Me.MachineConfigLabel.Size = New System.Drawing.Size(231, 19)
+        Me.MachineConfigLabel.Size = New System.Drawing.Size(218, 20)
         Me.MachineConfigLabel.TabIndex = 5
         Me.MachineConfigLabel.Text = "Machine Configuration Name "
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(93, 83)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.OldLace
+        Me.Label1.Location = New System.Drawing.Point(90, 84)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(19, 19)
+        Me.Label1.Size = New System.Drawing.Size(18, 20)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "+"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Rubik", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.OldLace
         Me.Label2.Location = New System.Drawing.Point(6, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(343, 28)
+        Me.Label2.Size = New System.Drawing.Size(329, 29)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Machine Profile Configuration"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.OldLace
         Me.Label3.Location = New System.Drawing.Point(3, 125)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(210, 19)
+        Me.Label3.Size = New System.Drawing.Size(202, 20)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Installer Title (e.g. 600XPR)"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(3, 197)
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.OldLace
+        Me.Label4.Location = New System.Drawing.Point(3, 193)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(155, 19)
+        Me.Label4.Size = New System.Drawing.Size(156, 20)
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "DokuWiki Table URL"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.OldLace
         Me.Label5.Location = New System.Drawing.Point(3, 263)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(176, 19)
+        Me.Label5.Size = New System.Drawing.Size(164, 20)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "Installer Build Number"
         '
         'Commit
         '
+        Me.Commit.BackColor = System.Drawing.Color.Transparent
         Me.Commit.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Commit.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Commit.Location = New System.Drawing.Point(7, 354)
+        Me.Commit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Commit.ForeColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Commit.Location = New System.Drawing.Point(13, 349)
         Me.Commit.Name = "Commit"
-        Me.Commit.Size = New System.Drawing.Size(109, 23)
+        Me.Commit.Size = New System.Drawing.Size(109, 32)
         Me.Commit.TabIndex = 11
         Me.Commit.Text = "Save Changes"
-        Me.Commit.UseVisualStyleBackColor = True
+        Me.Commit.UseVisualStyleBackColor = False
         '
         'CancelSaveButton
         '
+        Me.CancelSaveButton.BackColor = System.Drawing.Color.Transparent
         Me.CancelSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.CancelSaveButton.Font = New System.Drawing.Font("Rubik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CancelSaveButton.Location = New System.Drawing.Point(393, 354)
+        Me.CancelSaveButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CancelSaveButton.ForeColor = System.Drawing.SystemColors.InactiveCaption
+        Me.CancelSaveButton.Location = New System.Drawing.Point(393, 349)
         Me.CancelSaveButton.Name = "CancelSaveButton"
-        Me.CancelSaveButton.Size = New System.Drawing.Size(109, 23)
+        Me.CancelSaveButton.Size = New System.Drawing.Size(109, 32)
         Me.CancelSaveButton.TabIndex = 12
         Me.CancelSaveButton.Text = "Cancel"
-        Me.CancelSaveButton.UseVisualStyleBackColor = True
+        Me.CancelSaveButton.UseVisualStyleBackColor = False
         '
         'DLTEdit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.EI_DLTool.My.Resources.Resources.beautiful_color_gradients_backgrounds_100_vicious_stance
         Me.ClientSize = New System.Drawing.Size(514, 389)
         Me.Controls.Add(Me.CancelSaveButton)
         Me.Controls.Add(Me.Commit)

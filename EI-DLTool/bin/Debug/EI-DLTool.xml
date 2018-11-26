@@ -49,7 +49,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Location">
@@ -149,7 +149,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Location">
@@ -189,7 +189,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_ImeMode">
@@ -229,12 +229,12 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_ItemHeight">
 <summary>
-  Looks up a localized resource of type System.Int32 similar to 24.
+  Looks up a localized resource of type System.Int32 similar to 25.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_Items">
@@ -259,7 +259,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=117, Height=52}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=117, Height=54}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.HypModelList_TabIndex">
@@ -274,7 +274,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_Location">
@@ -289,7 +289,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=183, Height=19}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=176, Height=20}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label1_TabIndex">
@@ -309,7 +309,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_Location">
@@ -324,7 +324,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=73, Height=19}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=69, Height=20}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label2_TabIndex">
@@ -344,7 +344,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_Location">
@@ -359,7 +359,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=112, Height=19}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=104, Height=20}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Label3_TabIndex">
@@ -384,7 +384,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Location">
@@ -399,7 +399,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=11, Height=17}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=12, Height=17}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_TabIndex">
@@ -424,7 +424,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Location">
@@ -439,7 +439,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=11, Height=17}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=12, Height=17}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_TabIndex">
@@ -459,12 +459,12 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_ItemHeight">
 <summary>
-  Looks up a localized resource of type System.Int32 similar to 24.
+  Looks up a localized resource of type System.Int32 similar to 25.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Items">
@@ -494,7 +494,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=77, Height=100}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=77, Height=79}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.SPMachineList_TabIndex">

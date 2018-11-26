@@ -175,6 +175,8 @@
     <Content Include="My Project\MachineConfig.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Resources\EIFindURL.exe" />
+    <Content Include="Resources\MachineConfig.xml" />
     <None Include="Resources\beautiful-color-gradients-backgrounds-100-vicious-stance.png" />
     <None Include="Resources\images.jpg" />
   </ItemGroup>

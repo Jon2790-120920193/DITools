@@ -115,7 +115,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property Compile_Button_Font() As System.Drawing.Font
             Get
@@ -312,7 +312,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property Download_Button_Font() As System.Drawing.Font
             Get
@@ -391,7 +391,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property EditConfigButton_Font() As System.Drawing.Font
             Get
@@ -470,7 +470,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property HypModelList_Font() As System.Drawing.Font
             Get
@@ -480,7 +480,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Int32 similar to 24.
+        '''  Looks up a localized resource of type System.Int32 similar to 25.
         '''</summary>
         Friend Shared ReadOnly Property HypModelList_ItemHeight() As Integer
             Get
@@ -528,7 +528,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=117, Height=52}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=117, Height=54}.
         '''</summary>
         Friend Shared ReadOnly Property HypModelList_Size() As System.Drawing.Size
             Get
@@ -558,7 +558,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property Label1_Font() As System.Drawing.Font
             Get
@@ -588,7 +588,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=183, Height=19}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=176, Height=20}.
         '''</summary>
         Friend Shared ReadOnly Property Label1_Size() As System.Drawing.Size
             Get
@@ -627,7 +627,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property Label2_Font() As System.Drawing.Font
             Get
@@ -657,7 +657,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=73, Height=19}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=69, Height=20}.
         '''</summary>
         Friend Shared ReadOnly Property Label2_Size() As System.Drawing.Size
             Get
@@ -696,7 +696,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property Label3_Font() As System.Drawing.Font
             Get
@@ -726,7 +726,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=112, Height=19}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=104, Height=20}.
         '''</summary>
         Friend Shared ReadOnly Property Label3_Size() As System.Drawing.Size
             Get
@@ -775,7 +775,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property NotificationLabel_Font() As System.Drawing.Font
             Get
@@ -805,7 +805,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=11, Height=17}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=12, Height=17}.
         '''</summary>
         Friend Shared ReadOnly Property NotificationLabel_Size() As System.Drawing.Size
             Get
@@ -854,7 +854,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property NotificationLable2_Font() As System.Drawing.Font
             Get
@@ -884,7 +884,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=11, Height=17}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=12, Height=17}.
         '''</summary>
         Friend Shared ReadOnly Property NotificationLable2_Size() As System.Drawing.Size
             Get
@@ -923,7 +923,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property SPMachineList_Font() As System.Drawing.Font
             Get
@@ -933,7 +933,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Int32 similar to 24.
+        '''  Looks up a localized resource of type System.Int32 similar to 25.
         '''</summary>
         Friend Shared ReadOnly Property SPMachineList_ItemHeight() As Integer
             Get
@@ -990,7 +990,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=77, Height=100}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=77, Height=79}.
         '''</summary>
         Friend Shared ReadOnly Property SPMachineList_Size() As System.Drawing.Size
             Get

@@ -66,12 +66,12 @@ Partial Class DLTool_Form
         '
         'Download_Button
         '
-        Me.Download_Button.BackColor = System.Drawing.Color.White
+        Me.Download_Button.BackColor = System.Drawing.Color.Transparent
         resources.ApplyResources(Me.Download_Button, "Download_Button")
         Me.Download_Button.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Download_Button.FlatAppearance.BorderSize = 10
         Me.Download_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
-        Me.Download_Button.ForeColor = System.Drawing.Color.Green
+        Me.Download_Button.ForeColor = System.Drawing.Color.LightSteelBlue
         Me.Download_Button.Name = "Download_Button"
         Me.Download_Button.UseVisualStyleBackColor = False
         '
@@ -86,10 +86,10 @@ Partial Class DLTool_Form
         '
         'Compile_Button
         '
-        Me.Compile_Button.BackColor = System.Drawing.Color.White
+        Me.Compile_Button.BackColor = System.Drawing.Color.Transparent
         resources.ApplyResources(Me.Compile_Button, "Compile_Button")
         Me.Compile_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
-        Me.Compile_Button.ForeColor = System.Drawing.Color.Green
+        Me.Compile_Button.ForeColor = System.Drawing.Color.LightSteelBlue
         Me.Compile_Button.Name = "Compile_Button"
         Me.Compile_Button.UseVisualStyleBackColor = False
         '
@@ -134,12 +134,12 @@ Partial Class DLTool_Form
         '
         'EditConfigButton
         '
-        Me.EditConfigButton.BackColor = System.Drawing.Color.White
+        Me.EditConfigButton.BackColor = System.Drawing.Color.Transparent
         resources.ApplyResources(Me.EditConfigButton, "EditConfigButton")
         Me.EditConfigButton.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.EditConfigButton.FlatAppearance.BorderSize = 10
         Me.EditConfigButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
-        Me.EditConfigButton.ForeColor = System.Drawing.Color.Green
+        Me.EditConfigButton.ForeColor = System.Drawing.Color.LightSteelBlue
         Me.EditConfigButton.Name = "EditConfigButton"
         Me.EditConfigButton.UseVisualStyleBackColor = False
         '

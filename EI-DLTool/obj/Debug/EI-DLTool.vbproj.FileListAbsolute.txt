@@ -23,3 +23,16 @@ C:\Users\Joe_T\OneDrive\Desktop\Resource Backup\Builds\Maintenance Projects\Main
 C:\Users\Joe_T\OneDrive\Desktop\Resource Backup\Builds\Maintenance Projects\Maintenance Downloader\In Development\IE-DLTool\EI-DLTool\obj\Debug\EI-DLTool.xml
 C:\Users\Joe_T\OneDrive\Desktop\Resource Backup\Builds\Maintenance Projects\Maintenance Downloader\In Development\IE-DLTool\EI-DLTool\obj\Debug\EI-DLTool.pdb
 C:\Users\Joe_T\OneDrive\Desktop\Resource Backup\Builds\Maintenance Projects\Maintenance Downloader\In Development\EI-DLTool\EI-DLTool\obj\Debug\EI_DLTool.DLTEdit.resources
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\bin\Debug\EI-DLTool.exe.config
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\bin\Debug\EI-DLTool.exe
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\bin\Debug\EI-DLTool.pdb
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\bin\Debug\EI-DLTool.xml
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.vbprojResolveAssemblyReference.cache
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI_DLTool.DLTool_Form.resources
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI_DLTool.DLTEdit.resources
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI_DLTool.Resources.resources
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.vbproj.GenerateResource.Cache
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.vbproj.CoreCompileInputs.cache
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.exe
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.xml
+C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.pdb
