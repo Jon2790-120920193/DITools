@@ -36,3 +36,16 @@ C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\I
 C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.exe
 C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.xml
 C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.pdb
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\bin\Debug\EI-DLTool.exe.config
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\bin\Debug\EI-DLTool.exe
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\bin\Debug\EI-DLTool.pdb
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\bin\Debug\EI-DLTool.xml
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.vbprojAssemblyReference.cache
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\obj\Debug\EI_DLTool.DLTool_Form.resources
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\obj\Debug\EI_DLTool.DLTEdit.resources
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\obj\Debug\EI_DLTool.Resources.resources
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.vbproj.GenerateResource.cache
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.vbproj.CoreCompileInputs.cache
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.exe
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.xml
+C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\obj\Debug\EI-DLTool.pdb

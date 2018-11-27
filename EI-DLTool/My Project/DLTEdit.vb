@@ -1,5 +1,5 @@
 ﻿Public Class DLTEdit
-    Dim DataPath As String = "C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\Resources\MachineConfig.xml"
+    Dim DataPath As String = "http://inovkh.com:8001/SPM/MachineConfig.xml"
     Dim ConfigDoc As New System.Xml.XmlDocument()
     Dim CheckConfig As String
     Dim ArgConfig As String

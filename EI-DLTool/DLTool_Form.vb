@@ -16,7 +16,7 @@ Public Class DLTool_Form
     Dim URL_SP900XPR As String = "http://wiki.inovkh.com/doku.php?id=xpr_component_table_9x"
     Dim URL_SP900HPR As String = "http://wiki.inovkh.com/doku.php?id=hpr_component_table_9h"
     Dim startInfo As New ProcessStartInfo("C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\EIFindURL.exe")
-    Dim DataPath As String = "C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\Resources\MachineConfig.xml"
+    Dim DataPath As String = "http://inovkh.com:8001/SPM/MachineConfig.xml"
     Dim ConfigDoc As New System.Xml.XmlDocument()
     Public Build As Integer
     Dim CheckConfig As String = ""
@@ -107,6 +107,5 @@ Public Class DLTool_Form
     Private Sub EditConfigButton_Click(sender As Object, e As EventArgs) Handles EditConfigButton.Click
         Dim DLTEdit = New DLTEdit
         DLTEdit.Show()
-        ConfigDoc.Save(DataPath)
     End Sub
 End Class
