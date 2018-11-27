@@ -2,6 +2,7 @@
 Imports System.Collections.Generic
 Imports System.IO
 Imports System.Xml
+Imports System.Net
 
 Public Class DLTool_Form
     Dim MModel As String
@@ -10,53 +11,88 @@ Public Class DLTool_Form
     Public ArgURL As String = ""
     Public ArgDir As String
     Public ArgConfig As String
-    Dim URL_SP600XPR As String = "http://wiki.inovkh.com/doku.php?id=xpr_component_table"
-    Dim URL_SP600HPR As String = "http://wiki.inovkh.com/doku.php?id=hpr_compoenent_table"
-    Dim URL_SP700XPR As String = ""
-    Dim URL_SP900XPR As String = "http://wiki.inovkh.com/doku.php?id=xpr_component_table_9x"
-    Dim URL_SP900HPR As String = "http://wiki.inovkh.com/doku.php?id=hpr_component_table_9h"
-    Dim startInfo As New ProcessStartInfo("C:\Users\Joe\Desktop\Work\Inovatech Engineering Corp\GitHub\Project\IE-DlTools\IE-DlTools\EI-DLTool\EIFindURL.exe")
+    Dim startInfo As New ProcessStartInfo("\\INOVKHS0\Public\Misc Good\SPMDownloadTool (Do Not Delete)\IEFindURL.exe")
     Dim DataPath As String = "http://inovkh.com:8001/SPM/MachineConfig.xml"
     Dim ConfigDoc As New System.Xml.XmlDocument()
     Public Build As Integer
     Dim CheckConfig As String = ""
 
     Private Sub DLTool_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ConfigDoc.Load(DataPath)
-        SPMachineList.SelectedIndex = 0
-        HypModelList.SelectedIndex = 0
-        MModel = SPMachineList.SelectedItem.ToString()
-        HModel = HypModelList.SelectedItem.ToString()
-        PullSort(DestDir.Text, MModel, HModel)
+        If Not CheckForInternetConnection() = True Then
+            Dim result As DialogResult = MsgBox("Connection to the IEC Server is not established, please check your connection and try again", MessageBoxButtons.RetryCancel, "Error 001")
+            If result = DialogResult.Retry Then
+                Me.Controls.Clear()
+                InitializeComponent()
+                DLTool_Form_Load(e, e)
+            ElseIf result = DialogResult.Retry Then
+                Close()
+            End If
+            Download_Button.Enabled = False
+            EditConfigButton.Enabled = False
+        Else
+            Download_Button.Enabled = True
+            EditConfigButton.Enabled = True
+            ConfigDoc.Load(DataPath)
+            SPMachineList.SelectedIndex = 0
+            HypModelList.SelectedIndex = 0
+            MModel = SPMachineList.SelectedItem.ToString()
+            HModel = HypModelList.SelectedItem.ToString()
+            PullSort(DestDir.Text)
 
-        NotificationLabel.Text = "Table data from: " & ArgURL
-        NotificationLable2.Text = "Destination Folder " & DestDir.Text
-        NotificationLabel.Visible = True
-        NotificationLable2.Visible = True
-
+            NotificationLabel.Text = "Table data from: " & ArgURL
+            NotificationLable2.Text = "Destination Folder " & DestDir.Text
+            NotificationLabel.Visible = True
+            NotificationLable2.Visible = True
+        End If
     End Sub
 
+    Public Shared Function CheckForInternetConnection() As Boolean
+        Try
+            Using client = New WebClient()
+                Using stream = client.OpenRead("http://wiki.inovkh.com/doku.php")
+                    Return True
+                End Using
+            End Using
+        Catch
+            Return False
+        End Try
+    End Function
 
     Private Sub Download_Button_Click(sender As Object, e As EventArgs) Handles Download_Button.Click
-        MModel = SPMachineList.SelectedItem.ToString()
-        HModel = HypModelList.SelectedItem.ToString()
-        ArgDir = DestDir.Text
-        NotificationLabel.Visible = True
-        NotificationLable2.Visible = True
-
-        If ArgDir = "" Then
-            MsgBox("Please choose a package save location, the field cannot be empty", MessageBoxButtons.OK, "Error 010")
+        If Not CheckForInternetConnection() = True Then
+            Dim result As DialogResult = MsgBox("Connection to the IEC Server is not established, please check your connection and try again", MessageBoxButtons.RetryCancel, "Error 001")
+            If result = DialogResult.Retry Then
+                Me.Controls.Clear()
+                InitializeComponent()
+                DLTool_Form_Load(e, e)
+            ElseIf result = DialogResult.Retry Then
+                Close()
+            End If
+            Download_Button.Enabled = False
+            EditConfigButton.Enabled = False
         Else
-            PullSort(ArgDir, MModel, HModel)
-            If CheckConfig = "" Then
-                MsgBox(MModel & " " & HModel & " Machine Configuration does not exist", MessageBoxButtons.OK, "Error 110")
+            MModel = SPMachineList.SelectedItem.ToString()
+            HModel = HypModelList.SelectedItem.ToString()
+            ArgDir = DestDir.Text
+            NotificationLabel.Visible = True
+            NotificationLable2.Visible = True
+
+            If ArgDir = "" Then
+                MsgBox("Please choose a package save location, the field cannot be empty", MessageBoxButtons.OK, "Error 010")
             Else
-                If ArgURL = "" Then
-                    MsgBox(MModel & " " & HModel & " Does not have an associated Table", MessageBoxButtons.OK, "Error 111")
-                ElseIf ArgConfig = "" Then
-                    MsgBox(MModel & " " & HModel & " Machine Configuration has not been set", MessageBoxButtons.OK, "Error 112")
+                PullSort(ArgDir)
+                If CheckConfig = "" Then
+                    MsgBox(MModel & " " & HModel & " Machine Configuration does not exist", MessageBoxButtons.OK, "Error 110")
                 Else
-                    Launch(ArgDir, ArgURL, ArgConfig, Build)
+                    If ArgURL = "" Then
+                        MsgBox(MModel & " " & HModel & " Does not have an associated Table", MessageBoxButtons.OK, "Error 111")
+                    Else
+                        If ArgConfig = "" Then
+                            MsgBox(MModel & " " & HModel & " Machine Configuration has not been set", MessageBoxButtons.OK, "Error 112")
+                        Else
+                            Launch(ArgDir, ArgURL, ArgConfig, Build)
+                        End If
+                    End If
                 End If
             End If
         End If
@@ -74,9 +110,9 @@ Public Class DLTool_Form
         Process.Start(startInfo)
     End Sub
 
-    Public Sub PullSort(ByVal ArgDir As String, ByVal HModel As String, ByVal MModel As String)
-
-        Dim SelectedConfig As String = MModel & HModel
+    Public Sub PullSort(ByVal ArgDir As String)
+        ConfigDoc.Load(DataPath)
+        Dim SelectedConfig As String = SPMachineList.SelectedItem.ToString() & HypModelList.SelectedItem.ToString()
 
         For Each machine As System.Xml.XmlElement In ConfigDoc.DocumentElement.ChildNodes
             For Each field As System.Xml.XmlElement In machine.ChildNodes

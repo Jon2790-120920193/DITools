@@ -22,21 +22,6 @@ EI-DLTool
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="P:EI_DLTool.My.Resources.DLTool_Form.BackgroundWorker1_TrayLocation">
-<summary>
-  Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=17}.
-</summary>
-</member>
-<member name="P:EI_DLTool.My.Resources.DLTool_Form.BackgroundWorker2_TrayLocation">
-<summary>
-  Looks up a localized resource of type System.Drawing.Point similar to {X=253,Y=17}.
-</summary>
-</member>
-<member name="P:EI_DLTool.My.Resources.DLTool_Form.BackgroundWorker3_TrayLocation">
-<summary>
-  Looks up a localized resource of type System.Drawing.Point similar to {X=176,Y=60}.
-</summary>
-</member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_BackgroundImageLayout">
 <summary>
   Looks up a localized resource of type System.Windows.Forms.ImageLayout similar to Center.
@@ -54,7 +39,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Location">
 <summary>
-  Looks up a localized resource of type System.Drawing.Point similar to {X=591,Y=312}.
+  Looks up a localized resource of type System.Drawing.Point similar to {X=491,Y=290}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Margin">
@@ -64,7 +49,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=25}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=35}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_TabIndex">
@@ -75,6 +60,11 @@ EI-DLTool
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Text">
 <summary>
   Looks up a localized string similar to Compile.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.Compile_Button_Visible">
+<summary>
+  Looks up a localized resource of type System.Boolean similar to False.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.DestDir_Font">
@@ -154,7 +144,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Location">
 <summary>
-  Looks up a localized resource of type System.Drawing.Point similar to {X=486,Y=312}.
+  Looks up a localized resource of type System.Drawing.Point similar to {X=596,Y=290}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Margin">
@@ -164,7 +154,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=25}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=35}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.Download_Button_TabIndex">
@@ -199,7 +189,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Location">
 <summary>
-  Looks up a localized resource of type System.Drawing.Point similar to {X=20,Y=311}.
+  Looks up a localized resource of type System.Drawing.Point similar to {X=20,Y=290}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Margin">
@@ -209,7 +199,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=25}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=35}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_TabIndex">
@@ -220,6 +210,11 @@ EI-DLTool
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Text">
 <summary>
   Looks up a localized string similar to Edit.
+</summary>
+</member>
+<member name="P:EI_DLTool.My.Resources.DLTool_Form.EditConfigButton_Visible">
+<summary>
+  Looks up a localized resource of type System.Boolean similar to False.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.FBD_TrayLocation">
@@ -372,11 +367,6 @@ EI-DLTool
   Looks up a localized string similar to Configuration.
 </summary>
 </member>
-<member name="P:EI_DLTool.My.Resources.DLTool_Form.MachineConfigData_TrayLocation">
-<summary>
-  Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=60}.
-</summary>
-</member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_AutoSize">
 <summary>
   Looks up a localized resource of type System.Boolean similar to True.
@@ -384,7 +374,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Location">
@@ -399,7 +389,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=12, Height=17}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=13, Height=19}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLabel_TabIndex">
@@ -424,7 +414,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Font">
 <summary>
-  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Location">
@@ -439,7 +429,7 @@ EI-DLTool
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_Size">
 <summary>
-  Looks up a localized resource of type System.Drawing.Size similar to {Width=12, Height=17}.
+  Looks up a localized resource of type System.Drawing.Size similar to {Width=13, Height=19}.
 </summary>
 </member>
 <member name="P:EI_DLTool.My.Resources.DLTool_Form.NotificationLable2_TabIndex">

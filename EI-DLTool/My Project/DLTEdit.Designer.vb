@@ -52,9 +52,9 @@ Partial Class DLTEdit
         '
         Me.HyperthermTypeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.HyperthermTypeTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.HyperthermTypeTextBox.Location = New System.Drawing.Point(115, 82)
+        Me.HyperthermTypeTextBox.Location = New System.Drawing.Point(114, 82)
         Me.HyperthermTypeTextBox.Name = "HyperthermTypeTextBox"
-        Me.HyperthermTypeTextBox.Size = New System.Drawing.Size(74, 26)
+        Me.HyperthermTypeTextBox.Size = New System.Drawing.Size(91, 26)
         Me.HyperthermTypeTextBox.TabIndex = 1
         Me.HyperthermTypeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '

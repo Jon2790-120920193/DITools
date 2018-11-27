@@ -65,36 +65,6 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=17}.
-        '''</summary>
-        Friend Shared ReadOnly Property BackgroundWorker1_TrayLocation() As System.Drawing.Point
-            Get
-                Dim obj As Object = ResourceManager.GetObject("BackgroundWorker1.TrayLocation", resourceCulture)
-                Return CType(obj,System.Drawing.Point)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=253,Y=17}.
-        '''</summary>
-        Friend Shared ReadOnly Property BackgroundWorker2_TrayLocation() As System.Drawing.Point
-            Get
-                Dim obj As Object = ResourceManager.GetObject("BackgroundWorker2.TrayLocation", resourceCulture)
-                Return CType(obj,System.Drawing.Point)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=176,Y=60}.
-        '''</summary>
-        Friend Shared ReadOnly Property BackgroundWorker3_TrayLocation() As System.Drawing.Point
-            Get
-                Dim obj As Object = ResourceManager.GetObject("BackgroundWorker3.TrayLocation", resourceCulture)
-                Return CType(obj,System.Drawing.Point)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized resource of type System.Windows.Forms.ImageLayout similar to Center.
         '''</summary>
         Friend Shared ReadOnly Property Compile_Button_BackgroundImageLayout() As System.Windows.Forms.ImageLayout
@@ -125,7 +95,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=591,Y=312}.
+        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=491,Y=290}.
         '''</summary>
         Friend Shared ReadOnly Property Compile_Button_Location() As System.Drawing.Point
             Get
@@ -145,7 +115,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=25}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=35}.
         '''</summary>
         Friend Shared ReadOnly Property Compile_Button_Size() As System.Drawing.Size
             Get
@@ -170,6 +140,16 @@ Namespace My.Resources
         Friend Shared ReadOnly Property Compile_Button_Text() As String
             Get
                 Return ResourceManager.GetString("Compile_Button.Text", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Boolean similar to False.
+        '''</summary>
+        Friend Shared ReadOnly Property Compile_Button_Visible() As Boolean
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Compile_Button.Visible", resourceCulture)
+                Return CType(obj,Boolean)
             End Get
         End Property
         
@@ -322,7 +302,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=486,Y=312}.
+        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=596,Y=290}.
         '''</summary>
         Friend Shared ReadOnly Property Download_Button_Location() As System.Drawing.Point
             Get
@@ -342,7 +322,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=25}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=35}.
         '''</summary>
         Friend Shared ReadOnly Property Download_Button_Size() As System.Drawing.Size
             Get
@@ -411,7 +391,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=20,Y=311}.
+        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=20,Y=290}.
         '''</summary>
         Friend Shared ReadOnly Property EditConfigButton_Location() As System.Drawing.Point
             Get
@@ -431,7 +411,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=25}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=97, Height=35}.
         '''</summary>
         Friend Shared ReadOnly Property EditConfigButton_Size() As System.Drawing.Size
             Get
@@ -456,6 +436,16 @@ Namespace My.Resources
         Friend Shared ReadOnly Property EditConfigButton_Text() As String
             Get
                 Return ResourceManager.GetString("EditConfigButton.Text", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Boolean similar to False.
+        '''</summary>
+        Friend Shared ReadOnly Property EditConfigButton_Visible() As Boolean
+            Get
+                Dim obj As Object = ResourceManager.GetObject("EditConfigButton.Visible", resourceCulture)
+                Return CType(obj,Boolean)
             End Get
         End Property
         
@@ -755,16 +745,6 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=60}.
-        '''</summary>
-        Friend Shared ReadOnly Property MachineConfigData_TrayLocation() As System.Drawing.Point
-            Get
-                Dim obj As Object = ResourceManager.GetObject("MachineConfigData.TrayLocation", resourceCulture)
-                Return CType(obj,System.Drawing.Point)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized resource of type System.Boolean similar to True.
         '''</summary>
         Friend Shared ReadOnly Property NotificationLabel_AutoSize() As Boolean
@@ -775,7 +755,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property NotificationLabel_Font() As System.Drawing.Font
             Get
@@ -805,7 +785,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=12, Height=17}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=13, Height=19}.
         '''</summary>
         Friend Shared ReadOnly Property NotificationLabel_Size() As System.Drawing.Size
             Get
@@ -854,7 +834,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=10.2, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        '''  Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Rubik, Size=12, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         '''</summary>
         Friend Shared ReadOnly Property NotificationLable2_Font() As System.Drawing.Font
             Get
@@ -884,7 +864,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=12, Height=17}.
+        '''  Looks up a localized resource of type System.Drawing.Size similar to {Width=13, Height=19}.
         '''</summary>
         Friend Shared ReadOnly Property NotificationLable2_Size() As System.Drawing.Size
             Get

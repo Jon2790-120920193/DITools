@@ -28,19 +28,14 @@ Partial Class DLTool_Form
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Download_Button = New System.Windows.Forms.Button()
         Me.HypModelList = New System.Windows.Forms.ListBox()
-        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.Compile_Button = New System.Windows.Forms.Button()
         Me.NotificationLabel = New System.Windows.Forms.Label()
         Me.FBD = New System.Windows.Forms.FolderBrowserDialog()
         Me.DirSearch = New System.Windows.Forms.Button()
-        Me.BackgroundWorker2 = New System.ComponentModel.BackgroundWorker()
         Me.NotificationLable2 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.MachineConfigData = New System.Data.DataSet()
-        Me.BackgroundWorker3 = New System.ComponentModel.BackgroundWorker()
         Me.EditConfigButton = New System.Windows.Forms.Button()
-        CType(Me.MachineConfigData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SPMachineList
@@ -128,10 +123,6 @@ Partial Class DLTool_Form
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Name = "Label3"
         '
-        'MachineConfigData
-        '
-        Me.MachineConfigData.DataSetName = "MachineConfigData"
-        '
         'EditConfigButton
         '
         Me.EditConfigButton.BackColor = System.Drawing.Color.Transparent
@@ -167,7 +158,6 @@ Partial Class DLTool_Form
         Me.MaximizeBox = False
         Me.Name = "DLTool_Form"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
-        CType(Me.MachineConfigData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -178,16 +168,12 @@ Partial Class DLTool_Form
     Friend WithEvents Label1 As Label
     Friend WithEvents Download_Button As Button
     Friend WithEvents HypModelList As ListBox
-    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents Compile_Button As Button
     Friend WithEvents NotificationLabel As Label
     Friend WithEvents FBD As FolderBrowserDialog
     Friend WithEvents DirSearch As Button
-    Friend WithEvents BackgroundWorker2 As System.ComponentModel.BackgroundWorker
     Friend WithEvents NotificationLable2 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents MachineConfigData As DataSet
-    Friend WithEvents BackgroundWorker3 As System.ComponentModel.BackgroundWorker
     Friend WithEvents EditConfigButton As Button
 End Class

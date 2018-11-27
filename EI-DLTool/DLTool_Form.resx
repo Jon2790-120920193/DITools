@@ -232,13 +232,13 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="Download_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>486, 312</value>
+    <value>596, 290</value>
   </data>
   <data name="Download_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Download_Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 25</value>
+    <value>97, 35</value>
   </data>
   <data name="Download_Button.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -294,9 +294,6 @@
   <data name="&gt;&gt;HypModelList.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <metadata name="BackgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="Compile_Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
@@ -307,19 +304,22 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="Compile_Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>591, 312</value>
+    <value>491, 290</value>
   </data>
   <data name="Compile_Button.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Compile_Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 25</value>
+    <value>97, 35</value>
   </data>
   <data name="Compile_Button.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="Compile_Button.Text" xml:space="preserve">
     <value>Compile</value>
+  </data>
+  <data name="Compile_Button.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;Compile_Button.Name" xml:space="preserve">
     <value>Compile_Button</value>
@@ -337,7 +337,7 @@
     <value>True</value>
   </data>
   <data name="NotificationLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.2pt</value>
+    <value>Rubik, 11.999999pt</value>
   </data>
   <data name="NotificationLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 87</value>
@@ -346,7 +346,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="NotificationLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>12, 17</value>
+    <value>13, 19</value>
   </data>
   <data name="NotificationLabel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -402,14 +402,11 @@
   <data name="&gt;&gt;DirSearch.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="BackgroundWorker2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>253, 17</value>
-  </metadata>
   <data name="NotificationLable2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="NotificationLable2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.2pt</value>
+    <value>Rubik, 11.999999pt</value>
   </data>
   <data name="NotificationLable2.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 130</value>
@@ -418,7 +415,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="NotificationLable2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>12, 17</value>
+    <value>13, 19</value>
   </data>
   <data name="NotificationLable2.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -507,12 +504,6 @@
   <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="MachineConfigData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 60</value>
-  </metadata>
-  <metadata name="BackgroundWorker3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>176, 60</value>
-  </metadata>
   <data name="EditConfigButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
@@ -526,19 +517,22 @@
     <value>NoControl</value>
   </data>
   <data name="EditConfigButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 311</value>
+    <value>20, 290</value>
   </data>
   <data name="EditConfigButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="EditConfigButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 25</value>
+    <value>97, 35</value>
   </data>
   <data name="EditConfigButton.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
   <data name="EditConfigButton.Text" xml:space="preserve">
     <value>Edit</value>
+  </data>
+  <data name="EditConfigButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;EditConfigButton.Name" xml:space="preserve">
     <value>EditConfigButton</value>
@@ -571,7 +565,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>701, 349</value>
+    <value>701, 340</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10.2pt</value>
@@ -582,35 +576,11 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Download Tool</value>
   </data>
-  <data name="&gt;&gt;BackgroundWorker1.Name" xml:space="preserve">
-    <value>BackgroundWorker1</value>
-  </data>
-  <data name="&gt;&gt;BackgroundWorker1.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;FBD.Name" xml:space="preserve">
     <value>FBD</value>
   </data>
   <data name="&gt;&gt;FBD.Type" xml:space="preserve">
     <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BackgroundWorker2.Name" xml:space="preserve">
-    <value>BackgroundWorker2</value>
-  </data>
-  <data name="&gt;&gt;BackgroundWorker2.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MachineConfigData.Name" xml:space="preserve">
-    <value>MachineConfigData</value>
-  </data>
-  <data name="&gt;&gt;MachineConfigData.Type" xml:space="preserve">
-    <value>System.Data.DataSet, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BackgroundWorker3.Name" xml:space="preserve">
-    <value>BackgroundWorker3</value>
-  </data>
-  <data name="&gt;&gt;BackgroundWorker3.Type" xml:space="preserve">
-    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>DLTool_Form</value>
