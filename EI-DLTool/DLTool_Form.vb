@@ -90,7 +90,8 @@ Public Class DLTool_Form
                         If ArgConfig = "" Then
                             MsgBox(MModel & " " & HModel & " Machine Configuration has not been set", MessageBoxButtons.OK, "Error 112")
                         Else
-                            Launch(ArgDir, ArgURL, ArgConfig, Build)
+                            MsgBox(ArgDir & CheckConfig)
+                            Launch(ArgDir & CheckConfig, ArgURL, ArgConfig, Build)
                         End If
                     End If
                 End If
@@ -121,7 +122,7 @@ Public Class DLTool_Form
                     ArgConfig = field.NextSibling.InnerText
                     ArgURL = field.NextSibling.NextSibling.InnerText
                     Build = Conversion.Int(field.NextSibling.NextSibling.NextSibling.InnerText)
-                    ArgDir = ArgDir & "\" & SelectedConfig
+                    ArgDir = ArgDir
                 End If
             Next
         Next
