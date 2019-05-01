@@ -11,8 +11,8 @@ Public Class DLTool_Form
     Public ArgURL As String = ""
     Public ArgDir As String
     Public ArgConfig As String
-    Dim startInfo As New ProcessStartInfo("\\INOVKHS0\Public\Misc Good\SPMDownloadTool (Do Not Delete)\IEFindURL.exe")
-    Dim DataPath As String = "http://inovkh.com:8001/SPM/MachineConfig.xml"
+    Dim startInfo As New ProcessStartInfo("C:\Users\Joe_T\OneDrive\Documents\GitHub\IE-DLTool\IE-DlTools\EI-DLTool\EIFindURL.exe")
+    Dim DataPath As String = "\\192.168.5.4\Public\SteelPRO_Builds\SPM\MachineConfig.xml"
     Dim ConfigDoc As New System.Xml.XmlDocument()
     Public Build As Integer
     Dim CheckConfig As String = ""
@@ -90,8 +90,7 @@ Public Class DLTool_Form
                         If ArgConfig = "" Then
                             MsgBox(MModel & " " & HModel & " Machine Configuration has not been set", MessageBoxButtons.OK, "Error 112")
                         Else
-                            MsgBox(ArgDir & CheckConfig)
-                            Launch(ArgDir & CheckConfig, ArgURL, ArgConfig, Build)
+                            Launch(ArgDir & "\" & CheckConfig, ArgURL, ArgConfig, Build)
                         End If
                     End If
                 End If
@@ -106,9 +105,16 @@ Public Class DLTool_Form
         NotificationLabel.Text = "Table data from: " & ArgURL
         NotificationLable2.Text = "Destination Folder " & ArgDir
 
-        startInfo.WindowStyle = ProcessWindowStyle.Normal
-        startInfo.Arguments = Chr(34) & ArgURL & Chr(34) & " " & Chr(34) & ArgDir & Chr(34) & " " & Chr(34) & ArgConfig & Chr(34) & " " & Chr(34) & BuildNum & Chr(34)
-        Process.Start(startInfo)
+        Try
+            startInfo.WorkingDirectory = "C:\Windows\System32"
+            startInfo.UseShellExecute = False
+            startInfo.WindowStyle = ProcessWindowStyle.Normal
+            startInfo.Arguments = Chr(34) & ArgURL & Chr(34) & " " & Chr(34) & ArgDir & Chr(34) & " " & Chr(34) & ArgConfig & Chr(34) & " " & Chr(34) & BuildNum & Chr(34)
+            Process.Start(startInfo)
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+
     End Sub
 
     Public Sub PullSort(ByVal ArgDir As String)

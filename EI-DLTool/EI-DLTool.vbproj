@@ -63,7 +63,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -146,6 +146,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -171,11 +174,15 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EIFindURL.exe" />
+    <Content Include="EIFindURL.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="My Project\MachineConfig.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Resources\MachineConfig.xml" />
+    <Content Include="Resources\MachineConfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Resources\beautiful-color-gradients-backgrounds-100-vicious-stance.png" />
     <None Include="Resources\images.jpg" />
   </ItemGroup>
